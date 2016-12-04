@@ -1,6 +1,6 @@
 package org.pfcoperez.cci.treesandgraphs
 
-object BSTSequences1009 extends App {
+object BSTSequences0409 extends App {
 
   trait BinaryTree[+T]
   case class Node[+T](v: T, left: BinaryTree[T] = Empty, right: BinaryTree[T] = Empty) extends BinaryTree[T]
